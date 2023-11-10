@@ -1,0 +1,42 @@
+/* body{
+    background-image: url('myphoto.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+.boda {
+    border: 2px solid rgba(255, 0, 0, 0);
+}
+.para{
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.69,-0.13, 0.58, 1);
+    border: 5px solid blueviolet;
+    border-radius: 50px;
+    background: transparent;
+    color: antiquewhite;
+    padding: 0px;
+    backdrop-filter: blur(50px);
+
+
+}
+@keyframes slide{
+    from {transform: translatey(10%)}
+} */
+#increasebtn {
+    font-size: 2rem;
+    border-radius: 10px;
+}
+#decreasebtn {
+    font-size: 2rem;
+    border-radius: 10px;
+}
+#increasebtn :hover {
+    font-size: 3rem;
+}
